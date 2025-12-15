@@ -25,9 +25,17 @@ botonEliminar .onclick = function() {
 }
 celda1 .appendChild(botonEliminar);
 
-numProductos++;
+var caja1 = addInput("codigo", "texto");
+    celda2.appendChild (caja1);
 
-var contador = document. getElementById("numProductos");
-contador.innerHTML = "<b>"+numProductos+"</b>";
+    var caja2 = addInput("producto", "texto");
+    celda3.appendChild(caja2);
+
+    
+
+    numProductos++;
+    ids++;
+    
+
 
 }    
