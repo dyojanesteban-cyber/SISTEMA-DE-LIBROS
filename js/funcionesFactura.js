@@ -38,4 +38,4 @@ var caja1 = addInput("codigo", "texto");
     
 
 
-}    
+}      

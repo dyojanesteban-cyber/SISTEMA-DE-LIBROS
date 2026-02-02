@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    position: absolute;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+/* Posiciones */
+.superior {
+    top: 8%;
+}
+.centro {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.inferior {
+    bottom: 8%;
+}
+
+.izquierda {
+    left: 8%;
+}
+
+.derecha {
+    right: 8%;
+}
+
+/* Cuadros internos */
+.interior {
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
+    box-shadow: 10px 10px gray;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+}
+#id2 {
+    background-image: url("img/img1.jpg");
+}
+
+#id3 {
+    background-image: url("img/img2.jpg");
+}
+
+#id4 {
+    background-image: url("img/img3.jpg");
+}
+
+#id5 {
+    background-image: url("img/img4.jpg");
+}
+
+#id2:hover {
+    background-image: url("IMG\ 1.webp");
+}
+
+#id3:hover {
+    background-image: url("IMG\ 2..jpg");
+}
+
+#id4:hover {
+    background-image: url("IMG\ 3.jpg");
+}
+
+#id5:hover {
+    background-image: url("img\ 4.jpg");
+}
+
+/* Fondo principal */
+#id1 {
+    background-color: rgb(134, 163, 81);
+}
+
+.interior {
+    width: 25%;
+    height: 35%;
+    border-radius: 40px;
+    box-shadow: 10px 10px gray;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+    transition: all 0.4s ease;
+}
+
+.interior:hover {
+    color: transparent;
+}
+
+.interior {
+    filter: brightness(70%);
+}
+
+.interior:hover {
+    filter: brightness(100%);
+}
